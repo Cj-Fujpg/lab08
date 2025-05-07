@@ -10,14 +10,5 @@
 <body>
     <header>
         <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="welcome.php">Dashboard</a></li>
-            </ul>
-        </nav>
-    </header>
-    
     <hr>
 </body>
