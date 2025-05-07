@@ -1,7 +1,5 @@
-<?php include 'header.inc'; ?>
-<?php include 'footer.inc'; ?>
-
 <?php
+include 'header.php';
 session_start();
 
 if (isset($_SESSION['user'])) {
@@ -9,4 +7,5 @@ if (isset($_SESSION['user'])) {
 } else {
     header('Location: login.html');
 }
+include 'footer.php';
 ?>
