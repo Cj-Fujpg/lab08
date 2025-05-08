@@ -1,5 +1,6 @@
-    <footer>
-        <p>&copy; 2025 My Website. All rights reserved.</p>
-    </footer>
+
+<footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+</footer>
 </body>
 </html>
