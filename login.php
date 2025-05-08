@@ -3,7 +3,7 @@
         
     </head>
     <body>
-    <?php include 'header.php'; ?>
+    <?php include 'header.inc'; ?>
         <form method = "post" action="process.php">
             <label for="username">Username:</label>
             <input type = "text" name = "username" required><br>
@@ -14,6 +14,6 @@
             <input type = "hidden" name = "token" value = "abc">
             <input type = "submit" value="Login">
         </form>
-    <?php include 'footer.php'; ?>
+    <?php include 'footer.inc'; ?>
     </body>
 </html>

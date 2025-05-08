@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
+include 'header.inc';
 session_start();
 
 if (isset($_SESSION['user'])) {
@@ -7,5 +7,5 @@ if (isset($_SESSION['user'])) {
 } else {
     header('Location: login.html');
 }
-include 'footer.php';
+include 'footer.inc';
 ?>
